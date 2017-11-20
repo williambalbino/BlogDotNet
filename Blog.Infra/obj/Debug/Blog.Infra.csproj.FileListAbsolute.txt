@@ -1,0 +1,12 @@
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\Blog.Infra.dll.config
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\Blog.Infra.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\Blog.Infra.pdb
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\Blog.Dominio.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\EntityFramework.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\Blog.Dominio.pdb
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\EntityFramework.xml
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\obj\Debug\Blog.Infra.csprojResolveAssemblyReference.cache
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\obj\Debug\Blog.Infra.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Infra\obj\Debug\Blog.Infra.pdb

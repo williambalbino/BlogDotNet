@@ -1,0 +1,5 @@
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Dominio\bin\Debug\Blog.Dominio.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Dominio\bin\Debug\Blog.Dominio.pdb
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Dominio\obj\Debug\Blog.Dominio.csprojResolveAssemblyReference.cache
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Dominio\obj\Debug\Blog.Dominio.dll
+c:\users\willa\documents\visual studio 2015\Projects\Blog\Blog.Dominio\obj\Debug\Blog.Dominio.pdb
