@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Blog.Dominio.Model.Area>
+
+@{
+    ViewBag.Title = "Areas";
+}
+
+<h2>Areas</h2>
+
+<p>
+    @Html.ActionLink("Criar Nova Area", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.AreaID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.AreaID }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.AreaID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Blog.Dominio.Model.Post>
+
+@{
+    ViewBag.Title = "Posts";
+}
+
+<h2>Posts</h2>
+
+<p>
+    @Html.ActionLink("Criar Novo Post", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Area.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Texto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AutorID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Area.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataCadastro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Texto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AutorID)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.PostID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.PostID }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.PostID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,50 @@
+﻿@model Blog.Dominio.Model.Comentario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Comentario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Post.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Post.DataCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Texto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Texto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AutorID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AutorID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ComentarioID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

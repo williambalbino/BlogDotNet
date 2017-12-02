@@ -26,9 +26,10 @@ namespace Blog.Web
                 Comentario c = new Comentario();
                 Area a = new Area();
 
+
                 user.Nome = "AutorNome";
 
-                a.Nome = "SI";
+                a.Nome = "Engenharia de Software";
 
                 c.Texto = "TextoComentario";
 
